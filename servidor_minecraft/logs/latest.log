@@ -1,11 +1,11 @@
-[14:02:25] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[14:02:25] [ForkJoinPool-1-worker-2/WARN]: Mod travelersbackpack uses the version fabric-1.20.1-9.1.15 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[14:02:26] [main/WARN]: Warnings were found!
+[14:35:43] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[14:35:44] [ForkJoinPool-1-worker-4/WARN]: Mod travelersbackpack uses the version fabric-1.20.1-9.1.15 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:35:44] [main/WARN]: Warnings were found!
  - Mod 'Create Enchantment Industry' (create_enchantment_industry) 1.2.16 recommends version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create), but only the wrong version is present: 0.5.1-f-build.1417+mc1.20.1!
 	 - You should install version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create) for the optimal experience.
  - Mod 'Extended Drawers' (extended_drawers) 2.1.1+mc.1.20.1 recommends any version of patchouli, which is missing!
 	 - You should install any version of patchouli for the optimal experience.
-[14:02:26] [main/INFO]: Loading 237 mods:
+[14:35:44] [main/INFO]: Loading 237 mods:
 	- ad_astra 1.15.5
 	- another_furniture 1.20.1-3.0.1
 	- appleskin 2.5.1+mc1.20
@@ -219,7 +219,7 @@
 	- jade 11.9.2+fabric
 	- jadeaddons 5.2.6
 	- jamlib 0.6.1+1.20.x
-	- java 17
+	- java 21
 	- jei 15.8.2.25
 	- jeresources 1.4.0.247
 	- justenoughprofessions 3.0.1
@@ -282,174 +282,174 @@
 	- yungsapi 1.20-Fabric-4.0.5
 	   \-- org_javassist_javassist 3.29.2-GA
 	- yungsbridges 1.20-Fabric-4.0.3
-[14:02:26] [main/WARN]: Found 1 non-fabric mod:
+[14:35:44] [main/WARN]: Found 1 non-fabric mod:
 	- design_decor-0.4-1.20.1.jar
-[14:02:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/create/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[14:02:26] [main/INFO]: Compatibility level set to JAVA_17
-[14:02:27] [main/WARN]: Reference map 'configtoolkit-refmap.json' for configtoolkit.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'create_connected-refmap.json' for create_connected.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'create_eureka-common-refmap.json' for create_eureka-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map '${archivesBaseName}-refmap.json' for createdieselgenerators.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'goldenfoods.refmap.json' for fabric-goldenfoods.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'goldenfoods.refmap.json' for fabric-goldenfoods.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'interiors-fabric-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'JustEnoughResources-Fabric-1.20.1-refmap.json' for jeresources.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 0 override(s) found
-[14:02:27] [main/WARN]: Reference map 'more_beautiful_torches.refmap.json' for fabric-more_beautiful_torches.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'more_beautiful_torches.refmap.json' for fabric-more_beautiful_torches.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Reference map 'eureka-1201-fabric-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:02:27] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[14:02:27] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[14:02:27] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
-[14:02:27] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
-[14:02:27] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
-[14:02:27] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[14:02:27] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
-[14:02:27] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
-[14:02:27] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
-[14:02:27] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
-[14:02:27] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[14:02:27] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
-[14:02:27] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
-[14:02:27] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
-[14:02:27] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[14:02:28] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
-[14:02:28] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
-[14:02:28] [main/WARN]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev/latvian/mods/kubejs/recipe/RecipesEventJS)
-[14:02:28] [main/WARN]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod sliceanddice
-[14:02:28] [main/INFO]: Loaded config for: structureessentials.json
-[14:02:28] [main/WARN]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity)
-[14:02:28] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/RenderSectionManager (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/RenderSectionManager)
-[14:02:28] [main/WARN]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager was not found valkyrienskies-fabric.mixins.json:compat.sodium.MixinRenderSectionManager from mod valkyrienskies
-[14:02:28] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[14:02:28] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[14:02:28] [main/WARN]: Error loading class: net/minecraft/class_5614$class_5615 (java.lang.ClassNotFoundException: net/minecraft/class_5614$class_5615)
-[14:02:28] [main/WARN]: Error loading class: net/minecraft/class_5614$class_5615 (java.lang.ClassNotFoundException: net/minecraft/class_5614$class_5615)
-[14:02:28] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[14:02:28] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[14:02:28] [main/WARN]: Error loading class: net/minecraft/class_708 (java.lang.ClassNotFoundException: net/minecraft/class_708)
-[14:02:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[14:02:30] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$coj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[14:02:32] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[14:02:32] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[14:02:32] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[14:02:32] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[14:02:32] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[14:02:37] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[14:02:38] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
-[14:02:39] [main/INFO]: Loaded config for: cupboard.json
-[14:02:39] [main/INFO]: [rightclickharvest] Initializing VersionUtils
-[14:02:39] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
-[14:02:39] [main/INFO]: Config loaded
-[14:02:42] [main/INFO]: Initializing Backported-Wolves Config.
-[14:02:42] [main/INFO]: backported_wolves registered wolf spawns successfully.
-[14:02:42] [main/INFO]: Registering Item Groups for bellsandwhistles
-[14:02:42] [main/INFO]: Create addon mod [Create: Bells & Whistles] is loading alongside Create [0.5.1d]!
-[14:02:42] [main/INFO]: Create: Bells & Whistles is accessinsg Porting Lib from the server!
-[14:02:42] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[14:02:42] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[14:02:42] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[14:02:42] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[14:02:42] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[14:02:42] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[14:02:42] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[14:02:42] [main/INFO]: Loading Collective version 7.80.
-[14:02:42] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
-[14:02:43] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock from mod valkyrienskies::handler$dof000$valkyrienskies$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[14:02:45] [main/INFO]: Initializing CreateCopperAndZincMod
-[14:02:45] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
-[14:02:45] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
-[14:02:45] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
-[14:02:45] [main/INFO]: Create: Eureka! initializing! Create version: 0.5.1f on platform: Fabric
-[14:02:45] [main/INFO]: Registering blocks for Create: Eureka!
-[14:02:45] [main/INFO]: Registering block entities for Create: Eureka!
-[14:02:45] [main/INFO]: Create: Eureka! is accessing Porting Lib on a Fabric server!
-[14:02:45] [main/INFO]: Initializing CreateJetpackCuriosMod
-[14:02:45] [main/INFO]: Hello 1.20.1 Create!
-[14:02:45] [main/INFO]: Initializing CreateUltimateFactoryMod
-[14:02:46] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
-[14:02:46] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
-[14:02:46] [main/INFO]: Create Contraption Terminals starting
-[14:02:46] [main/INFO]: Registering entities for createmoreautomation
-[14:02:46] [main/INFO]: Registering Items for createmoreautomation
-[14:02:46] [main/INFO]: Registering ink_bottle from createmoreautomation
-[14:02:46] [main/INFO]: Registering glow_ink_bottle from createmoreautomation
-[14:02:46] [main/INFO]: Constructing common components for easyanvils:main
-[14:02:46] [main/INFO]: Constructing common components for easymagic:main
-[14:02:46] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[14:02:46] [main/ERROR]: No data fixer registered for rotten_tomato
-[14:02:46] [main/INFO]: Hello Fabric world!
-[14:02:46] [main/INFO]: Hello from GoldenFoods Common init on Fabric! we are currently in a production environment!
-[14:02:46] [main/INFO]: The ID for diamonds is minecraft:diamond
-[14:02:46] [main/INFO]: Hello to GoldenFoods
-[14:02:46] [main/INFO]: Registering FabricItems for GoldenFoods
-[14:02:46] [main/INFO]: FabricItemGroupRegistry goldenfoods
-[14:02:46] [main/INFO]: Initializing GraphLib...
-[14:02:46] [main/INFO]: GraphLib Initialized.
-[14:02:46] [main/INFO]: Create: Interiors v0.5.3+fabric-mc1.20.1 initializing! Create version: 0.5.1f on platform: Fabric
-[14:02:47] [main/INFO]: [jamlib] Mod initialized!
-[14:02:47] [main/INFO]: [KONKRETE] Successfully initialized!
-[14:02:47] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[14:02:47] [main/INFO]: Initialize mod Library Ferret
-[14:02:47] [main/INFO]: Initialized mod Library Ferret
-[14:02:47] [main/INFO]: Definitely not up to no good
-[14:02:47] [main/INFO]: Hello Fabric world!
-[14:02:47] [main/INFO]: Hello from Common init on Fabric! we are currently in a production environment!
-[14:02:47] [main/INFO]: The ID for diamonds is minecraft:diamond
-[14:02:47] [main/INFO]: Hello to monolib
-[14:02:47] [main/INFO]: FabricItemGroupRegistry more_beautiful_torches
-[14:02:47] [main/INFO]: Loading Noisium.
-[14:02:47] [main/INFO]: as a based person once said: it doesn't have to be balanced unless you're making a pvp focused mod
-[14:02:47] [main/INFO]: Constructing common components for puzzlesapi:iteminteractions
-[14:02:47] [main/INFO]: Constructing common components for puzzlesapi:slotcycling
-[14:02:47] [main/INFO]: Constructing common components for puzzlesapi:limitlesscontainers
-[14:02:47] [main/INFO]: Constructing common components for puzzlesapi:statues
-[14:02:47] [main/INFO]: Constructing common components for puzzleslib:main
-[14:02:47] [main/INFO]: Registered bogey styles from railways
-[14:02:47] [main/INFO]: Registering data fixers
-[14:02:47] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
-[14:02:47] [main/INFO]: Registering tracks for Hex Casting
-[14:02:47] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
-[14:02:47] [main/INFO]: Registering tracks for Blue Skies
-[14:02:47] [main/INFO]: Registering tracks for Twilight Forest
-[14:02:47] [main/INFO]: Registering tracks for Biomes O' Plenty
-[14:02:47] [main/INFO]: Registering tracks for Nature's Spirit
-[14:02:47] [main/INFO]: Registering tracks for Dreams and Desires
-[14:02:47] [main/INFO]: Registering tracks for Quark
-[14:02:47] [main/INFO]: Registering tracks for TerraFirmaCraft
-[14:02:48] [main/INFO]: Reflections took 65 ms to scan 1 urls, producing 6 keys and 36 values
-[14:02:48] [main/INFO]: Reflections took 11 ms to scan 1 urls, producing 6 keys and 36 values
-[14:02:48] [main/INFO]: Registering Ribbit instruments...
-[14:02:48] [main/INFO]: Registering Ribbit umbrella types...
-[14:02:48] [main/INFO]: Registering Ribbit professions...
-[14:02:48] [main/INFO]: Registering Ribbit data serializers...
-[14:02:48] [main/INFO]: [jamlib] Registered config for rightclickharvest
-[14:02:48] [main/INFO]: [rightclickharvest] Mod initialized!
-[14:02:48] [main/INFO]: structureessentials mod initialized
-[14:02:48] [main/INFO]: Tom's Storage Setup starting
-[14:02:48] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[14:02:48] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[14:02:48] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[14:02:48] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[14:02:48] [main/ERROR]: No data fixer registered for valkyrienskies:ship_mounting_entity
-[14:02:48] [main/ERROR]: No data fixer registered for valkyrienskies:vs_physics_entity
-[14:02:49] [main/INFO]: [STDOUT]: registering network handlers
-[14:02:50] [main/INFO]: Constructing common components for visualworkbench:main
-[14:02:50] [main/ERROR]: No data fixer registered for ship_helm
-[14:02:50] [main/ERROR]: No data fixer registered for engine
-[14:02:50] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
-[14:02:50] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[14:02:50] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[14:02:50] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[14:02:50] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[14:02:50] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[14:02:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:02:51] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[14:02:51] [main/WARN]: @Redirect conflict. Skipping cupboard.mixins.json:CommandExceptionLoggingMixin from mod cupboard->@Redirect::cupboard$logCommandError(Lorg/slf4j/Logger;)Z with priority 200, already redirected by carpet.mixins.json:Commands_customCommandsMixin from mod carpet->@Redirect::doesOutputCommandStackTrace(Lorg/slf4j/Logger;)Z with priority 1000
-[14:02:52] [Worker-Main-2/ERROR]: Couldn't load tag create:safe_nbt as it is missing following references: create_connected:linked_stone_button (from fabric), create_connected:linked_polished_blackstone_button (from fabric), create_connected:linked_oak_button (from fabric), create_connected:linked_spruce_button (from fabric), create_connected:linked_birch_button (from fabric), create_connected:linked_acacia_button (from fabric), create_connected:linked_cherry_button (from fabric), create_connected:linked_jungle_button (from fabric), create_connected:linked_dark_oak_button (from fabric), create_connected:linked_crimson_button (from fabric), create_connected:linked_warped_button (from fabric), create_connected:linked_mangrove_button (from fabric), create_connected:linked_bamboo_button (from fabric), create_connected:linked_lever (from fabric), create_connected:linked_analog_lever (from fabric)
-[14:02:52] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:create_connected:blocks/encased_chain_cogwheel
+[14:35:44] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/create/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:35:44] [main/INFO]: Compatibility level set to JAVA_17
+[14:35:45] [main/WARN]: Reference map 'configtoolkit-refmap.json' for configtoolkit.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'connectedglass.mixins.refmap.json' for connectedglass.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'create_connected-refmap.json' for create_connected.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'create_eureka-common-refmap.json' for create_eureka-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map '${archivesBaseName}-refmap.json' for createdieselgenerators.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'goldenfoods.refmap.json' for fabric-goldenfoods.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'goldenfoods.refmap.json' for fabric-goldenfoods.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'interiors-fabric-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'JustEnoughResources-Fabric-1.20.1-refmap.json' for jeresources.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 0 override(s) found
+[14:35:45] [main/WARN]: Reference map 'more_beautiful_torches.refmap.json' for fabric-more_beautiful_torches.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'more_beautiful_torches.refmap.json' for fabric-more_beautiful_torches.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Reference map 'eureka-1201-fabric-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:35:45] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[14:35:45] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[14:35:45] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
+[14:35:45] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
+[14:35:46] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
+[14:35:46] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[14:35:46] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
+[14:35:46] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[14:35:46] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
+[14:35:46] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
+[14:35:46] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[14:35:46] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
+[14:35:46] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
+[14:35:46] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
+[14:35:46] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[14:35:46] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[14:35:46] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[14:35:46] [main/WARN]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev/latvian/mods/kubejs/recipe/RecipesEventJS)
+[14:35:46] [main/WARN]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin from mod sliceanddice
+[14:35:46] [main/INFO]: Loaded config for: structureessentials.json
+[14:35:46] [main/WARN]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity)
+[14:35:46] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/RenderSectionManager (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/RenderSectionManager)
+[14:35:46] [main/WARN]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager was not found valkyrienskies-fabric.mixins.json:compat.sodium.MixinRenderSectionManager from mod valkyrienskies
+[14:35:46] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[14:35:46] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[14:35:46] [main/WARN]: Error loading class: net/minecraft/class_5614$class_5615 (java.lang.ClassNotFoundException: net/minecraft/class_5614$class_5615)
+[14:35:46] [main/WARN]: Error loading class: net/minecraft/class_5614$class_5615 (java.lang.ClassNotFoundException: net/minecraft/class_5614$class_5615)
+[14:35:46] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[14:35:46] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[14:35:46] [main/WARN]: Error loading class: net/minecraft/class_708 (java.lang.ClassNotFoundException: net/minecraft/class_708)
+[14:35:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:35:48] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$coj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14:35:50] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[14:35:50] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[14:35:50] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[14:35:50] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[14:35:50] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[14:35:55] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[14:35:56] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[14:35:56] [main/INFO]: Loaded config for: cupboard.json
+[14:35:56] [main/INFO]: [rightclickharvest] Initializing VersionUtils
+[14:35:56] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
+[14:35:56] [main/INFO]: Config loaded
+[14:35:59] [main/INFO]: Initializing Backported-Wolves Config.
+[14:35:59] [main/INFO]: backported_wolves registered wolf spawns successfully.
+[14:35:59] [main/INFO]: Registering Item Groups for bellsandwhistles
+[14:35:59] [main/INFO]: Create addon mod [Create: Bells & Whistles] is loading alongside Create [0.5.1d]!
+[14:35:59] [main/INFO]: Create: Bells & Whistles is accessinsg Porting Lib from the server!
+[14:35:59] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[14:35:59] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[14:35:59] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[14:35:59] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[14:35:59] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[14:35:59] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[14:35:59] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[14:35:59] [main/INFO]: Loading Collective version 7.80.
+[14:36:00] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
+[14:36:00] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock from mod valkyrienskies::handler$dof000$valkyrienskies$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14:36:02] [main/INFO]: Initializing CreateCopperAndZincMod
+[14:36:02] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
+[14:36:02] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
+[14:36:02] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
+[14:36:02] [main/INFO]: Create: Eureka! initializing! Create version: 0.5.1f on platform: Fabric
+[14:36:02] [main/INFO]: Registering blocks for Create: Eureka!
+[14:36:02] [main/INFO]: Registering block entities for Create: Eureka!
+[14:36:02] [main/INFO]: Create: Eureka! is accessing Porting Lib on a Fabric server!
+[14:36:02] [main/INFO]: Initializing CreateJetpackCuriosMod
+[14:36:02] [main/INFO]: Hello 1.20.1 Create!
+[14:36:02] [main/INFO]: Initializing CreateUltimateFactoryMod
+[14:36:02] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
+[14:36:02] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
+[14:36:02] [main/INFO]: Create Contraption Terminals starting
+[14:36:03] [main/INFO]: Registering entities for createmoreautomation
+[14:36:03] [main/INFO]: Registering Items for createmoreautomation
+[14:36:03] [main/INFO]: Registering ink_bottle from createmoreautomation
+[14:36:03] [main/INFO]: Registering glow_ink_bottle from createmoreautomation
+[14:36:03] [main/INFO]: Constructing common components for easyanvils:main
+[14:36:03] [main/INFO]: Constructing common components for easymagic:main
+[14:36:03] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[14:36:03] [main/ERROR]: No data fixer registered for rotten_tomato
+[14:36:03] [main/INFO]: Hello Fabric world!
+[14:36:03] [main/INFO]: Hello from GoldenFoods Common init on Fabric! we are currently in a production environment!
+[14:36:03] [main/INFO]: The ID for diamonds is minecraft:diamond
+[14:36:03] [main/INFO]: Hello to GoldenFoods
+[14:36:03] [main/INFO]: Registering FabricItems for GoldenFoods
+[14:36:03] [main/INFO]: FabricItemGroupRegistry goldenfoods
+[14:36:03] [main/INFO]: Initializing GraphLib...
+[14:36:03] [main/INFO]: GraphLib Initialized.
+[14:36:03] [main/INFO]: Create: Interiors v0.5.3+fabric-mc1.20.1 initializing! Create version: 0.5.1f on platform: Fabric
+[14:36:03] [main/INFO]: [jamlib] Mod initialized!
+[14:36:03] [main/INFO]: [KONKRETE] Successfully initialized!
+[14:36:03] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[14:36:03] [main/INFO]: Initialize mod Library Ferret
+[14:36:03] [main/INFO]: Initialized mod Library Ferret
+[14:36:03] [main/INFO]: Definitely not up to no good
+[14:36:03] [main/INFO]: Hello Fabric world!
+[14:36:03] [main/INFO]: Hello from Common init on Fabric! we are currently in a production environment!
+[14:36:03] [main/INFO]: The ID for diamonds is minecraft:diamond
+[14:36:03] [main/INFO]: Hello to monolib
+[14:36:04] [main/INFO]: FabricItemGroupRegistry more_beautiful_torches
+[14:36:04] [main/INFO]: Loading Noisium.
+[14:36:04] [main/INFO]: assume less - mald more
+[14:36:04] [main/INFO]: Constructing common components for puzzlesapi:iteminteractions
+[14:36:04] [main/INFO]: Constructing common components for puzzlesapi:slotcycling
+[14:36:04] [main/INFO]: Constructing common components for puzzlesapi:limitlesscontainers
+[14:36:04] [main/INFO]: Constructing common components for puzzlesapi:statues
+[14:36:04] [main/INFO]: Constructing common components for puzzleslib:main
+[14:36:04] [main/INFO]: Registered bogey styles from railways
+[14:36:04] [main/INFO]: Registering data fixers
+[14:36:04] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[14:36:04] [main/INFO]: Registering tracks for Hex Casting
+[14:36:04] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[14:36:04] [main/INFO]: Registering tracks for Blue Skies
+[14:36:04] [main/INFO]: Registering tracks for Twilight Forest
+[14:36:04] [main/INFO]: Registering tracks for Biomes O' Plenty
+[14:36:04] [main/INFO]: Registering tracks for Nature's Spirit
+[14:36:04] [main/INFO]: Registering tracks for Dreams and Desires
+[14:36:04] [main/INFO]: Registering tracks for Quark
+[14:36:04] [main/INFO]: Registering tracks for TerraFirmaCraft
+[14:36:04] [main/INFO]: Reflections took 58 ms to scan 1 urls, producing 6 keys and 36 values
+[14:36:04] [main/INFO]: Reflections took 16 ms to scan 1 urls, producing 6 keys and 36 values
+[14:36:04] [main/INFO]: Registering Ribbit instruments...
+[14:36:04] [main/INFO]: Registering Ribbit umbrella types...
+[14:36:04] [main/INFO]: Registering Ribbit professions...
+[14:36:04] [main/INFO]: Registering Ribbit data serializers...
+[14:36:04] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[14:36:04] [main/INFO]: [rightclickharvest] Mod initialized!
+[14:36:04] [main/INFO]: structureessentials mod initialized
+[14:36:04] [main/INFO]: Tom's Storage Setup starting
+[14:36:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[14:36:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[14:36:05] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[14:36:05] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[14:36:05] [main/ERROR]: No data fixer registered for valkyrienskies:ship_mounting_entity
+[14:36:05] [main/ERROR]: No data fixer registered for valkyrienskies:vs_physics_entity
+[14:36:05] [main/INFO]: [STDOUT]: registering network handlers
+[14:36:06] [main/INFO]: Constructing common components for visualworkbench:main
+[14:36:06] [main/ERROR]: No data fixer registered for ship_helm
+[14:36:06] [main/ERROR]: No data fixer registered for engine
+[14:36:06] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[14:36:06] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[14:36:06] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:36:06] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[14:36:06] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14:36:06] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14:36:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:36:07] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:36:07] [main/WARN]: @Redirect conflict. Skipping cupboard.mixins.json:CommandExceptionLoggingMixin from mod cupboard->@Redirect::cupboard$logCommandError(Lorg/slf4j/Logger;)Z with priority 200, already redirected by carpet.mixins.json:Commands_customCommandsMixin from mod carpet->@Redirect::doesOutputCommandStackTrace(Lorg/slf4j/Logger;)Z with priority 1000
+[14:36:08] [Worker-Main-2/ERROR]: Couldn't load tag create:safe_nbt as it is missing following references: create_connected:linked_stone_button (from fabric), create_connected:linked_polished_blackstone_button (from fabric), create_connected:linked_oak_button (from fabric), create_connected:linked_spruce_button (from fabric), create_connected:linked_birch_button (from fabric), create_connected:linked_acacia_button (from fabric), create_connected:linked_cherry_button (from fabric), create_connected:linked_jungle_button (from fabric), create_connected:linked_dark_oak_button (from fabric), create_connected:linked_crimson_button (from fabric), create_connected:linked_warped_button (from fabric), create_connected:linked_mangrove_button (from fabric), create_connected:linked_bamboo_button (from fabric), create_connected:linked_lever (from fabric), create_connected:linked_analog_lever (from fabric)
+[14:36:08] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:create_connected:blocks/encased_chain_cogwheel
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'create_connected:encased_chain_cogwheel'
 	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -491,22 +491,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
 	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
 	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
-	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
 	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[14:02:53] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/ERROR]: Parsing error loading recipe createmoreautomation:blasting/rotten_flesh
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[14:36:08] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[14:36:08] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[14:36:08] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[14:36:08] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[14:36:08] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[14:36:08] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
+[14:36:08] [main/ERROR]: Parsing error loading recipe createmoreautomation:blasting/rotten_flesh
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:blasting'
 	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -525,7 +525,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[14:02:53] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
+[14:36:08] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbrick'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -551,15 +551,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbri
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/ERROR]: Parsing error loading recipe farmersrespite:sequenced_assembly/black_cod
+[14:36:08] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[14:36:08] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/ERROR]: Parsing error loading recipe farmersrespite:sequenced_assembly/black_cod
 com.google.gson.JsonSyntaxException: Unknown item 'farmersrespite:black_tea_leaves'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -590,13 +590,13 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersrespite:black_tea_leav
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[14:02:53] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
+[14:36:09] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -622,15 +622,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[14:02:53] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/ERROR]: Parsing error loading recipe farmersrespiterefabricated:sequenced_assembly/black_cod
+[14:36:09] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/ERROR]: Parsing error loading recipe farmersrespiterefabricated:sequenced_assembly/black_cod
 com.google.gson.JsonSyntaxException: Unknown item 'farmersrespite:black_tea_leaves'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -661,9 +661,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersrespite:black_tea_leav
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/ERROR]: Parsing error loading recipe create_connected:crafting/shapeless/linked_transmitter_from_conversion
+[14:36:09] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/ERROR]: Parsing error loading recipe create_connected:crafting/shapeless/linked_transmitter_from_conversion
 com.google.gson.JsonSyntaxException: Unknown item 'create_connected:linked_transmitter'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -686,7 +686,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'create_connected:linked_trans
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[14:02:53] [main/ERROR]: Parsing error loading recipe create_connected:crafting/shapeless/redstone_link_from_conversion
+[14:36:09] [main/ERROR]: Parsing error loading recipe create_connected:crafting/shapeless/redstone_link_from_conversion
 com.google.gson.JsonSyntaxException: Unknown item 'create_connected:linked_transmitter'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -711,8 +711,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'create_connected:linked_trans
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[14:02:53] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/ERROR]: Parsing error loading recipe create_connected:crafting/shapeless/encased_chain_cogwheel
+[14:36:09] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/ERROR]: Parsing error loading recipe create_connected:crafting/shapeless/encased_chain_cogwheel
 com.google.gson.JsonSyntaxException: Unknown item 'create_connected:encased_chain_cogwheel'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -735,70 +735,74 @@ com.google.gson.JsonSyntaxException: Unknown item 'create_connected:encased_chai
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[14:02:53] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[14:02:53] [main/INFO]: Loaded 37 recipes
-[14:02:53] [main/INFO]: Injecting recipes
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
-[14:02:53] [main/INFO]: Loaded 4184 advancements
-[14:02:57] [main/WARN]: No specified tag 'minecraft:carpets' doesn't exist!
-[14:02:57] [main/INFO]: Applied 359 biome modifications to 58 of 74 new biomes in 25.05 ms
-[14:02:57] [Server thread/INFO]: Loading server config for easyanvils
-[14:02:57] [Server thread/INFO]: Loading server config for easymagic
-[14:02:57] [Server thread/INFO]: Loading server config for puzzlesapi
-[14:02:57] [Thread-3/INFO]: Reloading server config for puzzlesapi
-[14:02:57] [Thread-3/INFO]: Reloading server config for puzzlesapi
-[14:02:58] [Server thread/INFO]: Starting background profiler...
-[14:02:58] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:02:58] [Server thread/INFO]: Loading properties
-[14:02:58] [Server thread/INFO]: Default game type: SURVIVAL
-[14:02:58] [Server thread/INFO]: Generating keypair
-[14:02:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:02:58] [Server thread/INFO]: Using epoll channel type
-[14:02:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:02:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:02:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:02:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:02:58] [Server thread/INFO]: Preparing level "world"
-[14:03:00] [Server thread/INFO]: We are not using UDP, falling back to TCP
-[14:03:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:03:05] [Physics thread/WARN]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[14:03:06] [Physics thread/WARN]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[14:03:07] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:03:07] [Worker-Main-3/INFO]: Preparing spawn area: 4%
-[14:03:07] [Physics thread/WARN]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[14:03:07] [Worker-Main-2/INFO]: Preparing spawn area: 93%
-[14:03:08] [Server thread/INFO]: Time elapsed: 5130 ms
-[14:03:08] [Server thread/INFO]: Done (9.186s)! For help, type "help"
-[14:03:08] [Server thread/INFO]: Loaded config for: smoothchunk.json
-[14:03:08] [Server thread/INFO]: Start loading plugin from Jade
-[14:03:08] [Server thread/INFO]: Start loading plugin from Jade
-[14:03:08] [Server thread/INFO]: Start loading plugin from Jade
-[14:03:08] [Server thread/INFO]: Start loading plugin from Jade Addons
-[14:03:08] [Server thread/INFO]: Start loading plugin from Jade Addons
-[14:03:08] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[14:03:08] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14:36:09] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[14:36:09] [main/INFO]: Loaded 37 recipes
+[14:36:09] [main/INFO]: Injecting recipes
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
+[14:36:09] [main/INFO]: Loaded 4184 advancements
+[14:36:13] [main/WARN]: No specified tag 'minecraft:carpets' doesn't exist!
+[14:36:13] [main/INFO]: Applied 359 biome modifications to 58 of 74 new biomes in 19.75 ms
+[14:36:13] [Server thread/INFO]: Loading server config for easyanvils
+[14:36:13] [Thread-3/INFO]: Reloading server config for easyanvils
+[14:36:13] [Server thread/INFO]: Loading server config for easymagic
+[14:36:13] [Thread-3/INFO]: Reloading server config for easyanvils
+[14:36:13] [Server thread/INFO]: Loading server config for puzzlesapi
+[14:36:13] [Thread-3/INFO]: Reloading server config for puzzlesapi
+[14:36:13] [Thread-3/INFO]: Reloading server config for puzzlesapi
+[14:36:13] [Server thread/INFO]: Starting background profiler...
+[14:36:13] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:36:13] [Server thread/INFO]: Loading properties
+[14:36:13] [Server thread/INFO]: Default game type: SURVIVAL
+[14:36:13] [Server thread/INFO]: Generating keypair
+[14:36:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:36:13] [Server thread/INFO]: Using epoll channel type
+[14:36:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:36:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:36:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:36:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:36:13] [Server thread/INFO]: Preparing level "world"
+[14:36:15] [Server thread/INFO]: We are not using UDP, falling back to TCP
+[14:36:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:36:20] [Physics thread/WARN]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[14:36:21] [Physics thread/WARN]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[14:36:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:36:22] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[14:36:22] [Physics thread/WARN]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[14:36:22] [Worker-Main-1/INFO]: Preparing spawn area: 58%
+[14:36:23] [Server thread/INFO]: Time elapsed: 6068 ms
+[14:36:23] [Server thread/INFO]: Done (9.576s)! For help, type "help"
+[14:36:23] [Server thread/INFO]: Loaded config for: smoothchunk.json
+[14:36:23] [Server thread/INFO]: Start loading plugin from Jade
+[14:36:23] [Server thread/INFO]: Start loading plugin from Jade
+[14:36:23] [Server thread/INFO]: Start loading plugin from Jade
+[14:36:23] [Server thread/INFO]: Start loading plugin from Jade Addons
+[14:36:23] [Server thread/INFO]: Start loading plugin from Jade Addons
+[14:36:23] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14:36:23] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14:36:23] [Physics thread/WARN]: Too many physics frames in the physics frame queue. Is the game stage broken?
